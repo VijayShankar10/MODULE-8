@@ -83,7 +83,11 @@ Node* insert(Node* node, int key)
 }
 ```
 
+
 ## Output:
+<img width="877" height="513" alt="image" src="https://github.com/user-attachments/assets/17974022-aec5-4013-bdcc-b03bf2cb0bf5" />
+
+## Result:
 ```
 Input:
 5
@@ -93,6 +97,3 @@ Output:
 Preorder traversal of the constructed AVL tree is
 15 10 5 20 30
 ```
-
-## Result:
-<img width="877" height="513" alt="image" src="https://github.com/user-attachments/assets/17974022-aec5-4013-bdcc-b03bf2cb0bf5" />
