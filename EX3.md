@@ -34,6 +34,9 @@ void buildTree(string eqn)
 ```
 
 ## Output:
+<img width="866" height="472" alt="image" src="https://github.com/user-attachments/assets/13b2dc24-aa91-4dc7-81ba-c431edaba645" />
+
+## Result:
 ```
 Input:
 Prefix : /*+314+-952
@@ -48,6 +51,3 @@ Prefix : +3*+592
 Output:
 31
 ```
-
-## Result:
-<img width="866" height="472" alt="image" src="https://github.com/user-attachments/assets/13b2dc24-aa91-4dc7-81ba-c431edaba645" />
