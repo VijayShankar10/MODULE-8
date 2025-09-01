@@ -31,9 +31,9 @@ int main()
 ```
 
 ## Output:
+<img width="872" height="283" alt="image" src="https://github.com/user-attachments/assets/fc038bb4-7c55-43c0-9832-e59b43e80cf8" />
+
+## Result:
 ```
 Saveetha Engineering college!!!
 ```
-
-## Result:
-<img width="872" height="283" alt="image" src="https://github.com/user-attachments/assets/fc038bb4-7c55-43c0-9832-e59b43e80cf8" />
