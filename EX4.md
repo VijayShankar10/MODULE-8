@@ -64,6 +64,9 @@ traversePostOrder(root);
 ```
 
 ## Output:
+<img width="942" height="842" alt="image" src="https://github.com/user-attachments/assets/9491e046-0514-45a5-b7b5-0a6c2ce0b1c4" />
+
+## Result:
 ```
 Input:
 6
@@ -79,6 +82,3 @@ preorder traversal: A B C G D E F
 Inorder traversal: G C B D A F E
 Postorder traversal: G C D B F E A
 ```
-
-## Result:
-<img width="942" height="842" alt="image" src="https://github.com/user-attachments/assets/9491e046-0514-45a5-b7b5-0a6c2ce0b1c4" />
