@@ -1,10 +1,10 @@
 # Ex.No:1  
-# Ex.Name: Find the Largest Value in a Binary Search Tree  
+# Ex.Name: check whether a tree is a Binary Search Tree or not and to traverse inorder  
 
 ## Date:  
 
 ## Aim:  
-To write a C++ program with a **main function** to find the largest value in a **Binary Search Tree (BST)**.  
+To Write a C++ function to check whether a tree is a Binary Search Tree or not and to traverse inorder.  
 
 ## Algorithm:  
 1. Start the program.  
@@ -27,33 +27,29 @@ To write a C++ program with a **main function** to find the largest value in a *
 
 ## Program:
 ```cpp
-int findMax(Node* root)
-{
-    
-    if (root == NULL)
-        return INT_MIN;
- 
-    
-    int res = root->data;
-    int lres = findMax(root->left);
-    int rres = findMax(root->right);
-    if (lres > res)
-        res = lres;
-    if (rres > res)
-        res = rres;
-    return res;
+void traverseInOrder(struct node *temp) {
+  if (temp != NULL) {
+    traverseInOrder(temp->left);
+    cout << " " << temp->data;
+    traverseInOrder(temp->right);
+  }
 }
 ```
+
 ## Output:
+<img width="1237" height="807" alt="image" src="https://github.com/user-attachments/assets/a7a289ce-7de3-436c-a9d7-9d7c306afa00" />
+
+## Result:
 ```
 Input:
-3
-12 4 7
+5
+1 2 l
+2 3 r
+3 4 r
+4 12 r
+12 5 l
 
 Output:
-12
+Not a BST
+Inorder traversal:  2 3 4 5 12 1
 ```
-## Result:
-<img width="880" height="337" alt="image" src="https://github.com/user-attachments/assets/e7683282-b609-401a-8b99-a3a710504253" />
-
-
